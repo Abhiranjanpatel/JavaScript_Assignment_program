@@ -27,16 +27,16 @@ else {
 //4.Number Guessing Game
 
 // Calculate and display the results
-/*let num1 =Number(prompt("Enter num1: "));
+let num1 =Number(prompt("Enter num1: "));
 let num2 =Number(prompt("Enter num2: "));
 console.log("Sum: " + (num1 + num2));
 console.log("Difference: " + (num1 - num2));
 console.log("Product: " + (num1 * num2));
-console.log("Quotient: " + (num1 / num2));*/
+console.log("Quotient: " + (num1 / num2));
 
 
 //4.Number Guessing Game
-/*
+
 const secretNumber = 49;
 const userGuess = Number(prompt("Guess the secret number Within :"));
 if (userGuess === secretNumber) {
@@ -48,69 +48,69 @@ if (userGuess === secretNumber) {
 } else if (userGuess > secretNumber) {
   console.log("📈 Too high! Try again.");
 } else {
-  console.log("❌ Invalid input. Please enter aDifferent umber.");l}*/
+  console.log("❌ Invalid input. Please enter aDifferent umber.");l}
 
   //5.Print 1 to 10 Use a for loop to print numbers from 1 to 10.
 
-//   for (let i = 1; i <= 10; i++) {
-//   console.log(i);
-// }
+  for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
 
 //6.Multiplication Table Ask the user for a number. Print the multiplication table for that number up to 10.
 
-// let number = parseInt(prompt("Enter a number:"));
-// for (let i = 1; i <= 10; i++) {
-//   console.log(`${number} x ${i} = ${number * i}`);
-// }
+let number = parseInt(prompt("Enter a number:"));
+for (let i = 1; i <= 10; i++) {
+  console.log(`${number} x ${i} = ${number * i}`);
+}
 
 //7.Sum of Even Numbers Use a loop to find and print the sum of even numbers between 1 and 100.
 
-// let sum = 0;
-// for (let i = 2; i <= 100; i += 2) {
-//   sum += i;
-// }
-// console.log("Sum of even numbers from 1 to 100 is:", sum);
+let sum = 0;
+for (let i = 2; i <= 100; i += 2) {
+  sum += i;
+}
+console.log("Sum of even numbers from 1 to 100 is:", sum);
 
-//8.shopping List Create a shopping List 
+8.shopping List Create a shopping List 
 
-// let shoppingList = ["Milk", "Bread", "Eggs", "Butter", "Apples"];
-// shoppingList.push("Bananas");
-// shoppingList.pop();
-// console.log("Final Shopping List:", shoppingList);
+let shoppingList = ["Milk", "Bread", "Eggs", "Butter", "Apples"];
+shoppingList.push("Bananas");
+shoppingList.pop();
+console.log("Final Shopping List:", shoppingList);
 
-//9.Reverse an Array Create an array of numbers and use .reverse() to print the reversed array.
+9.Reverse an Array Create an array of numbers and use .reverse() to print the reversed array.
 
-// let numbers = [1, 2, 3, 4, 5];
-// // Reverse the array
-// let reversed = numbers.reverse();
-// console.log("Reversed Array:", reversed);
+let numbers = [1, 2, 3, 4, 5];
+// Reverse the array
+let reversed = numbers.reverse();
+console.log("Reversed Array:", reversed);
 
-//10.search in Array Create an array of colors (e.g., ["red", "blue", "green"]) Ask the user to enter a color.Use .
+10.search in Array Create an array of colors (e.g., ["red", "blue", "green"]) Ask the user to enter a color.Use .
 
-// let colors = ["Green", "Red", "Blue","Pink","SkyBlue"]; // Step 1: Create an array of colors
-// let userColor = prompt("Enter a color to search:");// Step 2: Ask the user to enter a color
-// userColor = userColor.trim().toLowerCase(); // Step 3: Normalize input (trim and lowercase)
-// if (colors.includes(userColor)) {
-//   console.log(`${userColor} is in the list!`);
-// } else {
-//   console.log(`${userColor} is NOT in the list.`);
-// }
+let colors = ["Green", "Red", "Blue","Pink","SkyBlue"]; // Step 1: Create an array of colors
+let userColor = prompt("Enter a color to search:");// Step 2: Ask the user to enter a color
+userColor = userColor.trim().toLowerCase(); // Step 3: Normalize input (trim and lowercase)
+if (colors.includes(userColor)) {
+  console.log(`${userColor} is in the list!`);
+} else {
+  console.log(`${userColor} is NOT in the list.`);
+}
 
-//11.FizzBuzz
+11.FizzBuzz
 
-// for (let i = 1; i <= 30; i++) {
-//     if (i % 3 === 0 && i % 5 === 0) {
-//         console.log("FizzBuzz");
-//     } else if (i % 3 === 0) {
-//         console.log("Fizz");
-//     } else if (i % 5 === 0) {
-//         console.log("Buzz");
-//     } else {
-//         console.log(i);
-//     }
-// }
+for (let i = 1; i <= 30; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+        console.log("Fizz");
+    } else if (i % 5 === 0) {
+        console.log("Buzz");
+    } else {
+        console.log(i);
+    }
+}
 
-//12.
+12.
 
 
 
@@ -143,6 +143,7 @@ while (guess !== targetNumber) // Step 3: Game loop
 
 
   
+
 
 
 
