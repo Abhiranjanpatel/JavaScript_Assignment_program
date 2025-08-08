@@ -4,7 +4,6 @@ console.log("Hello " + name + "!");
 
 alert("welcome to the site, " + name + "!");
 
-
 //2. Calculate and display the results
 console.log("Sum of two Number is: " + (num1 + num2));
 console.log("Difference of two Number is: " + (num1 - num2));
@@ -50,11 +49,13 @@ if (userGuess === secretNumber) {
 } else {
   console.log("❌ Invalid input. Please enter aDifferent umber.");l}*/
 
+
   //5.Print 1 to 10 Use a for loop to print numbers from 1 to 10.
 
 //   for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
+
 
 //6.Multiplication Table Ask the user for a number. Print the multiplication table for that number up to 10.
 
@@ -62,6 +63,7 @@ if (userGuess === secretNumber) {
 // for (let i = 1; i <= 10; i++) {
 //   console.log(`${number} x ${i} = ${number * i}`);
 // }
+
 
 //7.Sum of Even Numbers Use a loop to find and print the sum of even numbers between 1 and 100.
 
@@ -178,6 +180,7 @@ while (guess !== targetNumber) // Step 3: Game loop
 
 
   
+
 
 
 
