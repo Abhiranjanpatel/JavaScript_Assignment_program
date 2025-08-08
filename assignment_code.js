@@ -73,6 +73,7 @@ if (userGuess === secretNumber) {
 // }
 // console.log("Sum of even numbers from 1 to 100 is:", sum);
 
+
 //8.shopping List Create a shopping List 
 
 // let shoppingList = ["Milk", "Bread", "Eggs", "Butter", "Apples"];
@@ -80,12 +81,14 @@ if (userGuess === secretNumber) {
 // shoppingList.pop();
 // console.log("Final Shopping List:", shoppingList);
 
+
 //9.Reverse an Array Create an array of numbers and use .reverse() to print the reversed array.
 
 // let numbers = [1, 2, 3, 4, 5];
 // // Reverse the array
 // let reversed = numbers.reverse();
 // console.log("Reversed Array:", reversed);
+
 
 //10.search in Array Create an array of colors (e.g., ["red", "blue", "green"]) Ask the user to enter a color.Use .
 
@@ -180,6 +183,7 @@ while (guess !== targetNumber) // Step 3: Game loop
 
 
   
+
 
 
 
