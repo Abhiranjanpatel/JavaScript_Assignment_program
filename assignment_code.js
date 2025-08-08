@@ -101,6 +101,7 @@ if (userGuess === secretNumber) {
 //   console.log(`${userColor} is NOT in the list.`);
 // }
 
+
 //11.FizzBuzz
 
 // for (let i = 1; i <= 30; i++) {
@@ -114,6 +115,8 @@ if (userGuess === secretNumber) {
 //         console.log(i);
 //     }
 // }
+
+
 //12 palindrome checker
 
 // let word = prompt("Enter a word to check if it is a palindrome:");
@@ -183,6 +186,7 @@ while (guess !== targetNumber) // Step 3: Game loop
 
 
   
+
 
 
 
