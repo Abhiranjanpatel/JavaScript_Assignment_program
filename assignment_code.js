@@ -134,7 +134,7 @@ if (userGuess === secretNumber) {
 // }
 
 
-//13.mini project 1.
+//13.A.mini project 1.
 
 let questions = [
   "1. What is the capital of France?\n(a) Berlin\n(b) Paris\n(c) Madrid",
@@ -156,6 +156,8 @@ for (let i = 0; i < questions.length; i++) {
 }
 alert("You scored " + score + " out of " + questions.length);// Show total score
 console.log("You scored " + score + " out of " + questions.length);
+
+
 //B number guessing game
 const targetNumber = Math.floor(Math.random() * 100) + 1;// Step 1: Generate random number between 1 and 100
 // Step 2: Initialize variables
@@ -186,6 +188,7 @@ while (guess !== targetNumber) // Step 3: Game loop
 
 
   
+
 
 
 
